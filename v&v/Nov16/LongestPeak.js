@@ -22,4 +22,32 @@ Constraints:
 0 <= arr[i] <= 104
 */
 
+input: arr
+output: integer
+constraint: none
+edge: all the numbers are the same return 0
 
+[2,1,4,7,3,2,5]
+ 0 1 2 3 4 5 6
+
+ for loop start with index 1
+  leftMax=0
+  rightMax=0
+  while loop to check left side of the index 1
+    leftCount =0
+    rightCount = 0
+    while 
+    if value is less than the curr value leftCount ++
+    else break;
+    while 
+    if value is greater than the curr value of rightCount++
+    else break;
+    leftMax= max(leftMax,leftCount)
+    rightMat= max(rightMax,rightCount)
+
+    start = rightidx
+return leftmax+rightMax+1;
+
+
+// Do not edit the line below.
+exports.longestPeak = longestPeak;
