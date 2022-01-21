@@ -27,3 +27,4 @@ Example 2:
 var minDistance = function(word1, word2) {
 
 };
+console.log('hello')
